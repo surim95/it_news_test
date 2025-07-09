@@ -104,14 +104,14 @@
             </div>
         </footer>
     </div>
-</body>
-<script>
-    document.querySelectorAll('a').forEach(a => {
-        a.addEventListener('click', function(e) {
-            if (a.getAttribute('href') === '#') {
-                e.preventDefault();
-            }
+    <script>
+        document.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', function(e) {
+                if (a.getAttribute('href') === '#') {
+                    e.preventDefault();
+                }
+            });
         });
-    });
-</script>
+    </script>
+</body>
 </html>
