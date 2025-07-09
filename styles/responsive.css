@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+    #wrap main .container .card{
+        width: 100%;
+    }
+    #wrap main .container .card2 {
+        margin-top: 60px;
+    }
+}
